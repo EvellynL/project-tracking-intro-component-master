@@ -173,40 +173,52 @@ span {
 
 @media(max-width: 500px){
   .nav-list {
-    width: 70%;
+    width: 80%;
   }
 
   main {
     display: flex;
     flex-direction: column;
-    height: 110vh;
+    height: 120vh;
   }
 
   .left{
     position: absolute;
     width: 100%;
-    top: 35%;
-    left: 5px;
+    top: 380px;
+    left: 20px;
   }
 
   .left-text{
     width: 100%;
   }
 
+  .left-text p {
+    font-size: 14px;
+  }
+
+  .left-text h1 {
+    font-size: 30px;
+  }
+
+  .left-buttons {
+    width: 90%;
+  }
+
   .right{
     position: absolute;
     top: 5%;
-    left: 5px;
+    left: 100px;
   }
 
   .right img {
-    width: 500px;
+    width: 550px;
   }
 
   .box {
-    width: 210px;
+    width: 230px;
     height: 600px;
-    right: 0%;
+    right: -30px;
   }
 }
 
@@ -224,7 +236,7 @@ span {
   .left{
     position: absolute;
     width: 100%;
-    top: 35%;
+    top: 420px;
     left: 5px;
   }
 
@@ -234,12 +246,12 @@ span {
 
   .right{
     position: absolute;
-    top: 5%;
-    left: 20%;
+    top: 80px;
+    left: 90px;
   }
 
   .right img {
-    width: 600px;
+    width: 650px;
   }
 
   .box {
@@ -264,7 +276,7 @@ span {
     margin-top: 2rem;
     position: absolute;
     width: 80%;
-    top: 35%;
+    top: 400px;
     left: 10%;
   }
 
@@ -274,12 +286,12 @@ span {
 
   .right{
     position: absolute;
-    top: 5%;
-    left: 25%;
+    top: 50px;
+    left: 240px;
   }
 
   .right img {
-    width: 650px;
+    width: 750px;
   }
 
   .box {
@@ -295,27 +307,37 @@ span {
   }
 
   main {
-    display: flex;
-    flex-direction: column;
-    height: 120vh;
+   display: flex;
   }
 
   .left{
-    margin-top: 3.5rem;
+    margin-top: 1rem;
     position: absolute;
-    width: 80%;
-    top: 35%;
-    left: 10%;
+    width: 45%;
+    top: 50px;
+    left: 5%;
   }
 
   .left-text{
     width: 100%;
   }
 
+  .left-text p {
+    font-size: 13px;
+  }
+
+  .left-text h1 {
+    font-size: 30px;
+  }
+
+  .left-buttons {
+    width: 80%;
+  }
+
   .right{
     position: absolute;
-    top: 2%;
-    left: 30%;
+    top: 50px;
+    left: 45%;
   }
 
   .right img {
@@ -329,7 +351,59 @@ span {
   }
 }
 
-@media(max-height: 780px ){
+@media(min-width: 1181px) and (max-width: 1300px){
+  .nav-list {
+    width: 70%;
+  }
+
+  main {
+   display: flex;
+  }
+
+  .left{
+    margin-top: 1rem;
+    position: absolute;
+    width: 40%;
+    top: 50px;
+    left: 5%;
+  }
+
+  .left-text{
+    width: 100%;
+  }
+
+  .left-text p {
+    font-size: 13px;
+  }
+
+  .left-text h1 {
+    font-size: 30px;
+  }
+
+  .left-buttons {
+    width: 80%;
+  }
+
+  .right{
+    position: absolute;
+    top: 50px;
+    left: 45%;
+  }
+
+  .right img {
+    width: 800px;
+  }
+
+  .box {
+    width: 450px;
+    height: 650px;
+    right: 0%;
+  }
+}
+
+
+
+@media(max-height: 780px ) and (max-width: 900px){
   main {
     height: 140vh;
   }
